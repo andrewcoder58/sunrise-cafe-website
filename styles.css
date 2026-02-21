@@ -768,6 +768,13 @@ ul { list-style: none; }
   transform: scale(1.05);
 }
 
+.rounded-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  object-fit: cover;
+}   
+
 /* ---------- Testimonials ---------- */
 .testimonials {
   background: var(--color-surface);
