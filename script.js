@@ -116,8 +116,8 @@ document.addEventListener('DOMContentLoaded', () => {
   animatedElements.forEach(el => observer.observe(el));
 
   // ==================== MENU CATEGORY FILTER ====================
-  const filterBtns = document.querySelectorAll('.filter-btn');
-  const menuItems = document.querySelectorAll('.menu-item');
+  const filterBtns = document.querySelectorAll('.menu-tab');
+  const menuItems = document.querySelectorAll('.menu-card');
 
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
