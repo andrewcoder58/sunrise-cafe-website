@@ -220,7 +220,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ==================== MENU CARD HOVER TILT ====================
-  document.querySelectorAll('.menu-item').forEach(card => {
+  document.querySelectorAll('.menu-card').forEach(card => {
     card.addEventListener('mousemove', (e) => {
       const rect = card.getBoundingClientRect();
       const x = e.clientX - rect.left;
