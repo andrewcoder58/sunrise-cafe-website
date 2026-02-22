@@ -263,7 +263,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function goToSlide(index) {
       currentSlide = index;
-      const offset = -(currentSlide * (100 / slidesPerView)) * slidesPerView;
+      const offset = -(currentSlide * 100);
       track.style.transform = `translateX(${offset}%)`;
 
       if (dotsContainer) {
