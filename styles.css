@@ -500,7 +500,7 @@ ul { list-style: none; }
 
 .about-accent-box {
   position: absolute;
-  bottom: -1.5rem;
+  bottom: -0.75rem;
   right: -0.75rem;
   background: var(--color-primary);
   padding: 1.5rem 2rem;
@@ -1375,7 +1375,7 @@ ul { list-style: none; }
   }
 
   .about-accent-box {
-    bottom: -1.5rem;
+    bottom: -0.75rem;
     right: -0.75rem;
     padding: 1rem 1.25rem;
   }
