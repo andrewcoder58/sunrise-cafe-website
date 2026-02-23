@@ -627,6 +627,10 @@ ul { list-style: none; }
   overflow: hidden;
 }
 
+.hidden {
+  display: none !important;
+}
+
 .menu-card::before {
   content: '';
   position: absolute;
